@@ -3,10 +3,10 @@
   --primary-color: #F72585;
   --secondary-color: #7209B7;
   --accent1-color: #3A0CA3;
-  --accent2-color: #4361EE;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'Roboto Slab';
+  --heading-font: 'Roboto Slab', Arial, sans-serif;
   --paragraph-font: Roboto Slab, normal sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
