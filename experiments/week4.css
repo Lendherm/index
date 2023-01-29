@@ -1,0 +1,38 @@
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #F72585; 
+}
+header {
+    background-color:#7209B7(20,30,13, .7);
+}
+nav a:hover {
+    background-color: #3A0CA3;
+}
+
+nav a:hover {
+    background-color: #3A0CA3;
+    color: #7209B7;
+}
+
+.icon {
+    width: 80px;
+}
+
+nav a {
+    text-align: center;
+    color: #3A0CA3;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}  
+
+footer p a:hover {
+    text-decoration: underline;
+}    
+      

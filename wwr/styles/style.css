@@ -1,0 +1,48 @@
+div {
+    max-width: 1600px
+}
+
+div {
+    background-color: #7209B7;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: #F72585;
+
+}
+
+body {
+    background-color: #7209B7;
+}
+
+
+#background {
+    height: 725px;
+    background-color: #F72585;
+}
+
+footer {
+    background-color: #F72585;
+    color: white;
+}
+
+
+img.logo {
+    max-width: 80px
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+section a {
+    text-decoration: none;
+    color: white;
+}
