@@ -119,16 +119,32 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 
-nav {
+nav a {
+  display: inline-block;
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 nav {
   list-style-type: none;
-  display: flex;
+  display: inline-block;
+}
+
+.buttom1 {
+  float: left;
+}
+
+.buttom2 {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 nav a {
