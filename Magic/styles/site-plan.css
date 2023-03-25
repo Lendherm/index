@@ -31,17 +31,41 @@
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 960px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
 }
 
+#logodog {
+  height: 80px;
+  padding: 0px;
+  margin-left: 15px;
+  margin-right: ;
+}
+
+.header_bg {
+  position: absolute;
+  width: 1440px;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
+}
+
+mark {
+  background-color: #e12a61;
+}
+
+
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  max-width: ;
+}
+
+h2 {
+  font-size: 80x;
 }
 
 h1,
@@ -204,40 +228,59 @@ nav a:hover {
   padding-top: 10px;
 }
 
-.rivers-card, .camping-card, .rapids-card {
+.rivers-card,
+.camping-card,
+.rapids-card {
   margin: 200px 0;
 }
+
 .card-img {
   border: 10px solid #4A4E69;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
 }
+
 .card-img:hover {
   opacity: .6;
   transform: scale(1.1);
 }
+
 .main section img {
   box-sizing: border-box;
 }
+
 .home-grid {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
 }
-.card-img, .mountains {
-  width: 100%
+
+.card-img {
+  width: 100%;
 }
+
+.mountains {
+  width: 432px;
+}
+
+.logoimg {
+  width: 300px;
+}
+
 .rivers-card {
   grid-column: 2/4;
   grid-row: 2/3;
 }
+
 .camping-card {
   grid-column: 5/7;
   grid-row: 2/3;
 }
+
 .rapids-card {
   grid-column: 8/10;
   grid-row: 2/3;
 }
+
 .mountains {
   grid-column: 2/7;
   grid-row: 5/8;
@@ -245,12 +288,13 @@ nav a:hover {
 }
 
 .msg p {
-  color:#000;
+  color: #000;
   font-size: .8em;
   padding-bottom: 15px;
 }
+
 .msg {
-  background-color:#C9ADA7;
+  background-color: #C9ADA7;
   line-height: 1.5em;
   padding: 35px;
   grid-column: 6/10;
@@ -260,5 +304,73 @@ nav a:hover {
 
 h2 {
   margin: 0;
+}
+
+.imgletras {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+
+
+#letras {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  height: 600px;
+}
+
+#copa {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cerezagrid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 3fr 2fr;
+}
+
+.indexz{
+  position: absolute;
+  height: 600px;
+width: 720px;
+object-fit: cover;
+z-index: -1;
+}
+
+.learnmore{
+
+    width: 131px;
+    text-decoration: none;
+    
+
+}
+
+.learn{
+    width: 132px;
+    justify-content: center;
+     margin-left: 35%;
+ 
+}
+
+.decoration {
+    height: 5px;
+    width: 100%;
+    background: red;
+    border-radius: 5px;
+    position: relative;
+    bottom: 0.4rem;
+    z-index: -1;
+    display: grid;
+}
+
+hr{
+  
+  background: #720bb5;;
 }
 
