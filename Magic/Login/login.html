@@ -1,56 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <div class="container">
-        <form action="/action_page.php">
-          <div class="row">
-            <h2 style="text-align:center">Login with Social Media or Manually</h2>
-            <div class="vl">
-              <span class="vl-innertext">or</span>
-            </div>
-      
-            <div class="col">
-              <a href="#" class="fb btn">
-                <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-              </a>
-              <a href="#" class="twitter btn">
-                <i class="fa fa-twitter fa-fw"></i> Login with Twitter
-              </a>
-              <a href="#" class="google btn">
-                <i class="fa fa-google fa-fw"></i> Login with Google+
-              </a>
-            </div>
-      
-            <div class="col">
-              <div class="hide-md-lg">
-                <p>Or sign in manually:</p>
-              </div>
-      
-              <input type="text" name="username" placeholder="Username" required>
-              <input type="password" name="password" placeholder="Password" required>
-              <input type="submit" value="Login">
-            </div>
-      
+  <div class="container">
+    <header>
+      <img id="logodog" src="./unnamed.jpg" alt="Logo image" />
+      <a href="/Magic/site-plan.html">Home</a>
+    </header>
+    <hr>
+    <form action="/action_page.php">
+      <div class="row">
+        <h2 style="text-align:center">Login with Social Media or Manually</h2>
+        <div class="vl">
+          <span class="vl-innertext">or</span>
+        </div>
+
+        <div class="col">
+          <a href="#" class="fb btn">
+            <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+          </a>
+          <a href="#" class="twitter btn">
+            <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+          </a>
+          <a href="#" class="google btn">
+            <i class="fa fa-google fa-fw"></i> Login with Google+
+          </a>
+        </div>
+
+        <div class="col">
+          <div class="hide-md-lg">
+            <p>Or sign in manually:</p>
           </div>
-        </form>
+
+          <input type="text" name="username" placeholder="Username" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="submit" value="Login">
+        </div>
+
       </div>
-      
-      <div class="bottom-container">
-        <div class="row">
-          <div class="col">
-            <a href="#" style="color:white" class="btn">Sign up</a>
-          </div>
-          <div class="col">
-            <a href="#" style="color:white" class="btn">Forgot password?</a>
-          </div>
+    </form>
+  </div>
+
+  <div class="bottom-container">
+    <div class="row">
+      <div class="col">
+        <a href="#" style="color:white" class="btn">Sign up</a>
+      </div>
+      <div class="col">
+        <a href="#" style="color:white" class="btn">Forgot password?</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <section>
+      <h7>magic</h7>
+      <div style="display: flex; justify-content: center;">
+        <div style="display: inline-flex;">
+          <a style="padding: 0px 25px;" href="#">About</a>
+          <a style="padding: 0px 25px;" href="#">Services</a>
+          <a style="padding: 0px 25px;" href="#">Projects</a>
         </div>
       </div>
+      <div style="display: flex; justify-content: center; padding: 70px 0px ;">
+        <div style="display: inline-flex;">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+      </div>
+    </section>
+
+  </footer>
 </body>
+
 </html>
