@@ -82,7 +82,7 @@ nav a:hover,.book:hover,.join:hover {
 h1{
     color: white;
 }
-header {
+#nav{
     display: flex;
     flex-direction: row;
     

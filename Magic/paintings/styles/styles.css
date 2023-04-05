@@ -102,7 +102,7 @@ h4{
 #book-msg h1,#book-msg div,.button-box,main section {
     text-align: center;
 }
-header {
+#nav {
     display: flex;
     flex-direction: row;
     
